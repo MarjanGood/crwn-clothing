@@ -1,4 +1,10 @@
- const Shop_Data= [
+import hats from "../../images/1.png";
+import jackets from"../../images/2.jpeg";
+import sneakers from"../../images/3.jpg";
+import women from"../../images/4.jpg";
+import men from"../../images/5.jpg";
+
+const Shop_Data= [
     {
         id:1,
         title:'Hats',
@@ -6,25 +12,25 @@
             {
                 id:1,
                 name:'Brown Brim',
-                imageUrl:'',
+                imageUrl:hats,
                 price:25
             },
             {
                 id:2,
                 name:'Brown Beanie',
-                imageUrl:'',
+                imageUrl:jackets,
                 price:18
             },
             {
                 id:3,
                 name:'Blue Brim',
-                imageUrl:'',
+                imageUrl:sneakers,
                 price:35
             },
             {
                 id:4,
                 name:'Brown Coboy',
-                imageUrl:'',
+                imageUrl:women,
                 price:25
             },
         ]
@@ -36,25 +42,25 @@
             {
                 id:1,
                 name:'Brown Brim',
-                imageUrl:'',
+                imageUrl:jackets,
                 price:25
             },
             {
                 id:2,
                 name:'Brown Beanie',
-                imageUrl:'',
+                imageUrl:sneakers,
                 price:18
             },
             {
                 id:3,
                 name:'Blue Brim',
-                imageUrl:'',
+                imageUrl:women,
                 price:35
             },
             {
                 id:4,
                 name:'Brown Coboy',
-                imageUrl:'',
+                imageUrl:men,
                 price:25
             },
         ]
@@ -66,25 +72,25 @@
             {
                 id:1,
                 name:'Brown Brim',
-                imageUrl:'',
+                imageUrl:sneakers,
                 price:25
             },
             {
                 id:2,
                 name:'Brown Beanie',
-                imageUrl:'',
+                imageUrl:jackets,
                 price:18
             },
             {
                 id:3,
                 name:'Blue Brim',
-                imageUrl:'',
+                imageUrl:hats,
                 price:35
             },
             {
                 id:4,
                 name:'Brown Coboy',
-                imageUrl:'',
+                imageUrl:jackets,
                 price:25
             },
         ]

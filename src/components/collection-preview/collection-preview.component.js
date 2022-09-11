@@ -1,19 +1,21 @@
-import './collection-preview.style.sass';
+import './collection-preview.styles.scss';
+import CollectionItem from '../collection-item/collection-item.component';
 
 const CollectionPreview = (item) => (
 
     <div className='collection-preview'>
+        
     <h1 className='title'>
-        {item.title.toUpperCase()}
+     {item.title.toUpperCase()}
     </h1>
-    <div className='preview'>
 
+    <div className='preview'>
     {item.items
-    .filter((item,idx)=>idx < 3)
+    .filter((item,idx)=>idx < 4)
     .map((i)=>(
-        <div key={i.id}>
-            {i.name}
-        </div>
+        <CollectionItem key={i.id} {...i} >
+       
+        </CollectionItem>
     ))}
     </div>
 </div> 
